@@ -1,0 +1,13 @@
+the 'templates' folder is used to store the app's views
+
+NOTE: THE FOLDER MUST BE NAMED 'templates'.  The Jinja module 
+specifies 'templates' as the location for views.
+
+The view are in HTML format.  Python functionality can be inserted by:
+
+    syntax: {{ }}  used for inserting variable values
+    syntax: {% %}  used for evaluating Python logic
+    syntax: {% end<statement> %}: used to end evaluation.
+        examples:
+            {% endfor %} is used to end a 'for loop'
+            {% endif %} is used to end an 'IF statement'
