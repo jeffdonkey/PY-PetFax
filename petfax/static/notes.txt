@@ -1,0 +1,4 @@
+the 'static' folder is used to store CSS and JavaScript files
+
+NOTE: THE FOLDER MUST BE NAMED 'static'.  Flask module 
+specifies 'static' as the location for CSS and JavaScript files

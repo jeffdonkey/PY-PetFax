@@ -16,4 +16,9 @@ def create_app():
     from . import pet
     app.register_blueprint(pet.bp)
 
+    # Register the fact blueprint.  This connects the blueprint 
+    # from 'fact.py' to '__init__.py'
+    from . import fact
+    app.register_blueprint(fact.bp)
+
     return app
